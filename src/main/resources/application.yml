@@ -1,0 +1,11 @@
+server:
+  port: 8888
+#elasticsearch
+elasticsearch:
+  schema: http
+  address: 192.168.49.133:9200
+  connectTimeout: 5000
+  socketTimeout: 5000
+  connectionRequestTimeout: 5000
+  maxConnectNum: 100
+  maxConnectPerRoute: 100
